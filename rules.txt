@@ -1,0 +1,5 @@
+1. never ever commit to a main breanch or master branch.
+2. Do stuff in a new branch and make a PR req.
+3. One Feature -> One Branch -> One PR req.
+
+/* I hope Everyone follows this */
