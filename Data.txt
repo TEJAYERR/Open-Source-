@@ -1,0 +1,2 @@
+
+Pull request done but the if the merge is not done and I will try commit to same branch then it will create a commit in there it self
