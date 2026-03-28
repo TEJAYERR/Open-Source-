@@ -1,0 +1,35 @@
+Contribution Git and Github Workflow:
+
+FORK -> CLONE -> CREATE BRANCH -> MAKE CHANGES -> COMMIT -> PUSH -> PULL REQUEST.
+
+1. Fork the Repo/Project from Github.
+    This creates your copy of project in your Github.
+
+2. Clone to your local system.
+    git clone https://github.com/YOUR_USERNAME/REPO_NAME.git
+    cd REPO_NAME
+
+3. Add Upstream.
+    This connects your repo to the original project, and you'll fetch and pull latest commits from main project.
+    git remote add upstream https://github.com/ORIGINAL_OWNER/REPO_NAME.git
+
+4. Create and Switch to New Branch.
+    git checkout -b NEW_BRANCH_NAME
+
+5. Make Changes and Add features.
+
+6. Add and Commit Changes.
+    git add .
+    git commit -m "MESSAGE"
+
+7. Push to Github.
+    git push origin "NEW_BRANCH_NAME"
+
+8. Go to forked Project in Github.
+
+9. Click compare & pull request.
+
+10. Fill: Title(clear) & Description.
+    Explain:
+        What you did.
+        Why you did it.
